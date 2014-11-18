@@ -9,43 +9,31 @@
   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 
-  <script src="javascript/script.js";></script>
+  <script src="javascript/script.js"></script>
   
-  <link href="stylesheets/button.css" rel="stylesheet">
   <link href="stylesheets/styles.css" rel="stylesheet">
     
 </head>
-<body>
-<!--
-  <header>
-    <h1>This is a test of User Input</h1>
-  </header>
--->
   
+<body>
+
+  <h1 id="statement"></h1>
+
   <div class="main">
-    <ul>
-      <li>
-          <i class="fa fa-user fa-3x black" id="name"></i>
-          <h1>What's your Favorite Color [click below]</h1>
-      </li>
-      <li>
-        <a href="#" onClick="getUserInput();">
-          <button class="thoughtbot">
-            <i class="fa fa-pie-chart fa-2x red">
-              <p id="color">COLOR?</p>
-            </i>
-          </button>
-        </a>
-      </li>
-    </ul>
+    <a href="#" onClick="getUserColor();">
+      <button class="thoughtbot">
+        <i class="fa fa-pie-chart fa-2x fa-spin"></i>
+      </button>
+    </a>
+    <p>What's your favorite color?</p>
+    
+    <a href="#" onClick="getUserAge();">
+      <button class="skip">
+        <i class="fa fa-clock-o fa-2x fa-spin"></i>
+      </button>
+    </a>
+    <p>How Old Are you?</p>
   </div>
 
-  <footer>
-    <small>© Copyright 2014, iMudder Corporation Code</small><br>
-    <i class="fa fa-facebook-square fa-2x"></i>
-    <i class="fa fa-linkedin-square fa-2x"></i>
-    <i class="fa fa-twitter-square fa-2x"></i>
-  </footer>
-  
 </body>
 </html>
