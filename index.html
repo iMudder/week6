@@ -6,6 +6,8 @@
   <meta charset="UTF-8">
   <title>Javascript Explorations</title>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 
   <script src="javascript/script.js";></script>
   
@@ -14,41 +16,35 @@
     
 </head>
 <body>
+<!--
   <header>
     <h1>This is a test of User Input</h1>
   </header>
+-->
   
   <div class="main">
-    
-
-    
     <ul>
-      <li id="right">
-        <button class="skip">
-          <ul>
-            <li><i class="fa fa-pie-chart fa-3x"></i></li>
-            <li><br><p id="color"></p></li>
-          </ul>
-        </button>
+      <li>
+          <i class="fa fa-user fa-3x black" id="name"></i>
+          <h1>What's your Favorite Color [click below]</h1>
       </li>
-      <li id="left">
-        
-        <button class="thoughtbot">
-          <i class="fa fa-envelope-square fa-2x">
-              <a href="#" onClick="getUserInput();"><p id="name">Click Here</p></a>
-          </i>
-        </button>
+      <li>
+        <a href="#" onClick="getUserInput();">
+          <button class="thoughtbot">
+            <i class="fa fa-pie-chart fa-2x red">
+              <p id="color">COLOR?</p>
+            </i>
+          </button>
+        </a>
       </li>
     </ul>
-    
   </div>
-  
 
-  
   <footer>
-    <i class="fa fa-facebook"></i>
-    <i class="fa fa-github"></i>
-    <i class="fa fa-linkedin"></i>
+    <small>© Copyright 2014, iMudder Corporation Code</small><br>
+    <i class="fa fa-facebook-square fa-2x"></i>
+    <i class="fa fa-linkedin-square fa-2x"></i>
+    <i class="fa fa-twitter-square fa-2x"></i>
   </footer>
   
 </body>

@@ -2,37 +2,48 @@
     Then view their code here:  https://github.com/ubuwaits/css3-buttons
     Pick two that you like, and copy the css code from repo to style the two buttons on index.html. */
 
-* {
-    margin: 0px;
-    padding: 5px;
+main {
+    margin: 2%;
+    padding: 2%;
 }
 
 button {
-        margin: 7px;
-        padding: 10px;
-        min-width: 150px;
-        color: white;
-        text-shadow: 2px 2px 2px hsla(242, 100%, 50%, 1);
-}
-
-button.punch {
-}
-
-button.skip {
+          color: white;
+          min-width: 150px;
+          margin-bottom: 15px;
 }
 
 p {
     color: white;
     font-size: 2rem;
-    text-shadow: 2px 2px 2px hsla(242, 100%, 50%, 1);
     line-height: 120%;
+    font-family: "Architects Daughter";
 }
 
-.fa-envelope-square {
-                      color: white;
-                      text-shadow: 2px 2px 2px hsla(242, 100%, 50%, 1);
+h1 {
+      font-family: Oswald;
+}
+
+small {
+        margin-bottom: 1%;
 }
 
 footer {
-  clear: both;
+          background-color: #AEAFB1;
+          width: 60%;
+          text-align: left;
+          padding: 15px;
+          margin-bottom: 2%;
+          color: black;
+          height: 10%%;
 }
+
+/*
+.red {
+      text-shadow: 2px 2px 2px hsla(0, 100%, 50%, 1);
+}
+
+.black {
+        color: black;
+        text-shadow: 2px 2px 2px black;
+}*/
