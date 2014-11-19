@@ -1,7 +1,7 @@
 window.onload = function () {
   var name = prompt("What's your name?", "[NAME]");
   if (name !== null) {
-    var statement = name.concat(", Welcome to Week 6!");
+    var statement = "Welcome to Week 6, ".concat(name);
     var consoleName = "Name: ".concat(name);
     document.getElementById("statement").innerHTML = statement;
     console.log(consoleName) ;
@@ -19,9 +19,9 @@ function getUserColor() {
 }
 
 function getUserPet() {
-  var pet = prompt("What's your favorite pet's name?", "[PET NAME]");
+  var pet = prompt("What's your Favorite Pet's Name?", "[PET NAME]");
   if (pet !== null) {
-    var statement = "Your pet's name is: ".concat(pet);
+    var statement = "Your Favorite Pet's Name is: ".concat(pet);
     var consolePet = "Pet: ".concat(pet);
     document.getElementById("statement").innerHTML = statement;
     console.log(consolePet) ;
