@@ -1,7 +1,7 @@
 window.onload = function () {
   var name = prompt("What's your name?", "[NAME]");
   if (name !== null) {
-    var statement = name.concat(", welcome to Week 6!");
+    var statement = name.concat(", Welcome to Week 6!");
     var consoleName = "Name: ".concat(name);
     document.getElementById("statement").innerHTML = statement;
     console.log(consoleName) ;
@@ -18,13 +18,13 @@ function getUserColor() {
   }
 }
 
-function getUserAge() {
-  var age = prompt("How old are you?", "[AGE]");
-  if (age !== null) {
-    var statement = "Your age is: ".concat(age);
-    var consoleAge = "Age: ".concat(age);
+function getUserPet() {
+  var pet = prompt("What's your favorite pet's name?", "[PET NAME]");
+  if (pet !== null) {
+    var statement = "Your pet's name is: ".concat(pet);
+    var consolePet = "Pet: ".concat(pet);
     document.getElementById("statement").innerHTML = statement;
-    console.log(consoleAge) ;
+    console.log(consolePet) ;
   }
 }
 
